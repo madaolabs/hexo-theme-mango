@@ -4,19 +4,7 @@
     <div id="header-inner" class="inner">
       <nav id="main-nav">
         <a id="main-nav-toggle" class="nav-icon"> </a>
-        <img
-          alt="icon"
-          src="<%= theme.favicon %>"
-          width="60"
-          height="60"
-          class="main-nav-link"
-        />
-        <a
-          href="<%- url_for() %>"
-          id="main-nav-title"
-          class="main-nav-link"
-          style="line-height: 60"
-        >
+        <a href="<%- url_for() %>" id="main-nav-title" class="main-nav-link">
           <%= config.title %></a
         >
         <% for (var i in theme.menu){ %>
